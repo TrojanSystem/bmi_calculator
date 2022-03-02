@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'constant.dart';
 import 'home_page.dart';
 
@@ -14,7 +13,7 @@ class BMICalculator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: theme,
+      theme: kTheme,
       debugShowCheckedModeBanner: false,
       home: const MyHomePage(),
     );
