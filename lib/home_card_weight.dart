@@ -4,7 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'constant.dart';
 
 class HomeCardWeight extends StatefulWidget {
-   @override
+  @override
   State<HomeCardWeight> createState() => _HomeCardWeightState();
 }
 
@@ -40,6 +40,7 @@ class _HomeCardWeightState extends State<HomeCardWeight> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             FloatingActionButton(
+              heroTag: "btn3",
               onPressed: () {
                 setState(() {
                   kWeight++;
@@ -50,8 +51,12 @@ class _HomeCardWeightState extends State<HomeCardWeight> {
               ),
               backgroundColor: kGenderContainerInactiveColor,
               elevation: 30,
-            ),const SizedBox(width: 10,),
+            ),
+            const SizedBox(
+              width: 10,
+            ),
             FloatingActionButton(
+              heroTag: "btn4",
               onPressed: () {
                 setState(() {
                   kWeight--;
