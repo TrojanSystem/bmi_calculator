@@ -61,12 +61,7 @@ class BMIResult extends StatelessWidget {
                   Text(
                     comment,
                     textAlign: TextAlign.center,
-                    style: const TextStyle(
-                      letterSpacing: 1,
-                      color: Colors.white,
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style:kResultCommentStyle,
                   ),
                 ],
               ),
@@ -85,11 +80,7 @@ class BMIResult extends StatelessWidget {
               child: const Text(
                 'Re Calculate',
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  fontWeight: FontWeight.w900,
-                ),
+                style: kBottomContainerStyle,
               ),
             ),
           ),

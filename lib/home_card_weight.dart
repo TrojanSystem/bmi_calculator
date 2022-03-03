@@ -29,11 +29,7 @@ class _HomeCardWeightState extends State<HomeCardWeight> {
           children: [
             Text(
               kWeight.toString(),
-              style: const TextStyle(
-                fontSize: 50,
-                color: Colors.white,
-                fontWeight: FontWeight.w900,
-              ),
+              style: kNumberStyle,
             ),
           ],
         ),

@@ -1,7 +1,6 @@
 import 'package:bmi_calculator/bmi_calculation.dart';
 import 'package:bmi_calculator/constant.dart';
 import 'package:bmi_calculator/result.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'home_card.dart';
@@ -90,11 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           Text(
                             kHeight.floor().toString(),
-                            style: const TextStyle(
-                              fontSize: 50,
-                              color: Colors.white,
-                              fontWeight: FontWeight.w900,
-                            ),
+                            style:kNumberStyle,
                           ),
                           const Text(
                             'cm',
@@ -166,11 +161,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: const Text(
                 'Calculate',
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  fontWeight: FontWeight.w900,
-                ),
+                style: kBottomContainerStyle,
               ),
             ),
           ),

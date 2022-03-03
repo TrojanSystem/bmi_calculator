@@ -31,3 +31,20 @@ ThemeData kTheme = ThemeData(
     ),
   ),
 );
+
+const kNumberStyle = TextStyle(
+  fontSize: 50,
+  color: Colors.white,
+  fontWeight: FontWeight.w900,
+);
+const kResultCommentStyle = TextStyle(
+  letterSpacing: 1,
+  color: Colors.white,
+  fontSize: 30,
+  fontWeight: FontWeight.bold,
+);
+const kBottomContainerStyle =TextStyle(
+  color: Colors.white,
+  fontSize: 30,
+  fontWeight: FontWeight.w900,
+);
